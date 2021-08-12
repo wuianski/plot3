@@ -201,17 +201,15 @@ select:disabled {
 
 #app-name {
   display: inline-block;
-  height: 100%;
-  vertical-align: top;
-  padding: 11px 34px;
   box-sizing: border-box;
   font-weight: 300;
-  background: none;
+  background-color: #111;
   color: #fff;
   font-size: 21px;
   letter-spacing: 0.1em;
   position: relative;
   z-index: 1;
+  margin: 10px 20px;
 }
 
 .tagline {
@@ -1915,4 +1913,8 @@ input[type="text"] {
 #layout-umap {
   color: #fff;
   cursor: pointer;
+  background-color: #111;
+  font-size: 21px;
+  font-weight: 300;
+  letter-spacing: 0.1em;
 }
