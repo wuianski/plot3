@@ -990,8 +990,8 @@ World.prototype.getScene = function () {
 World.prototype.getCamera = function () {
   var canvasSize = getCanvasSize();
   var aspectRatio = canvasSize.w / canvasSize.h;
-  return new THREE.PerspectiveCamera(75, aspectRatio, 0.001, 10);
-};
+  return new THREE.PerspectiveCamera(50, aspectRatio, 0.001, 100); //75
+};;
 
 /**
  * Generate the renderer to be used in the scene
