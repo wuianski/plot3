@@ -9,6 +9,7 @@ html,
 canvas {
   overflow: hidden;
   height: 50%;
+  font-family: Roboto, sans-serif;
 }
 
 body,
@@ -970,6 +971,10 @@ nav h2 {
 .welcome {
   max-width: 700px;
   margin: 0 auto;
+  margin-bottom:30px;
+  letter-spacing: .6px;
+  line-height: 1.5;
+  font-weight: lighter;
 }
 
 @keyframes exit {
