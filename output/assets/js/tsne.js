@@ -4154,7 +4154,8 @@ Welcome.prototype.startWorld = function () {
       setTimeout(function () {
         requestAnimationFrame(function () {
           document.querySelector("#loader-scene").classList += "hidden";
-          document.querySelector("#header-controls").style.opacity = 1;
+          document.querySelector("#layout-grid").click();
+          document.querySelector("#header-controls").style.display = "none";
         });
       }, 1500);
     }.bind(this)
